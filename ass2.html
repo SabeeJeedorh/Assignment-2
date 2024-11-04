@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <style>
+      span {
+        color: mediumseagreen;
+      }
+      .gray-div {
+        background-color: gray;
+        border-top: 5px solid gainsboro;
+
+        width: auto;
+        height: 50px;
+      }
+      span{
+        color: rgb(25, 182, 25);
+        font-weight: bolder;
+        font-size: 20px;
+       
+      }
+      p{
+        line-height: 1.5em;
+        font-size: 20px;
+      }
+      .gray-2 {
+        background-color: gray;
+        border-top: 5px solid gainsboro;
+        width: auto;
+        height: 50px;
+      }
+      .yellow-section {
+        background-color: rgb(231, 199, 22);
+        box-shadow: 0 5px 2px -2px rgb(121, 111, 86);
+        width: 30vw;
+        height: 50px;
+        border-radius: 2px;
+        padding: 10px;
+        margin-top: 5px;
+      }
+      .yellow-section p {
+        font-weight: bolder;
+        font-size: 25px;
+        margin-top: 10px;
+        overflow-wrap: break-word;
+        
+        
+      }
+
+      /*media query*/
+      @media (max-width: 600px) {
+        .gray-div {
+          width: auto;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .yellow-section {
+          width: 80vw;
+          height: 80px;
+          padding-top: 2px;
+          margin-top: 5px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .yellow-section p {
+          font-size: 30px;
+          font-weight: bolder;
+        }
+      }
+
+      @media (max-width: 600px) {
+        p {
+          font-size: 25px;
+          
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>Huckleberry</h1>
+    </header>
+    <section class="huckleberry">
+   <p>
+    An avant-garde agency focused on connecting a <span>passion</span> with <span>logistics.</span>
+
+
+<p>A better way to solve the problems of tomorrow.</p>
+   </p>
+    </section>
+    <div class="gray-div"></div>
+    <div class="yellow-section">
+      <p>Wealth comes from operations</p>
+    </div>
+    <div>
+      <p>
+        No modern business can thrive without developing a specialization in operations. Huckleberry has helped dozens of companies, from Fortune 50 monoliths to fast-growing Bay Area startups, achieve their goals and meet their KPIs by leveraging our extensive network of logistics experts.
+
+
+Huckleberry was established in 2003 to help ambitious businesses discover their true potential. If that resonates, let's chat!
+      </p>
+    </div>
+    <div class="gray-2"></div>
+  
+  </body>
+</html>
