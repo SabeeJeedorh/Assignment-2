@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+.user {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: mintcream;
+  background-color: teal;
+  box-shadow: 4px 7px 7px 0px #05000042;
+  padding: 3%;
+  margin-bottom: 50px;
+}
+.container {
+  display: grid;
+  gap: 20px;
+  transition: scale(1.3);
+}
+
+.container a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.box1 {
+  background-color: rgb(247, 241, 241);
+  box-shadow: 7px 7px 7px 0 #05000042;
+  padding: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.box1:hover {
+  filter: grayscale(5);
+  transform: scale(1.03);
+}
+
+.box2 {
+  background-color: rgb(247, 241, 241);
+  box-shadow: 4px 7px 7px 0px #05000042;
+  padding: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.box2:hover {
+  filter: grayscale(5);
+  transform: scale(1.03);
+}
+
+.box3 {
+  background-color: rgb(247, 241, 241);
+  box-shadow: 4px 7px 7px 0px #05000042;
+  padding: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.box3:hover {
+  filter: grayscale(5);
+  transform: scale(1.03);
+}
+
+.box4 {
+  background-color: rgb(247, 241, 241);
+  box-shadow: 4px 7px 7px 0px #05000042;
+  padding: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.box4:hover {
+  filter: grayscale(5);
+  transform: scale(1.03);
+}
+
+.box5 {
+  background-color: rgb(247, 241, 241);
+  box-shadow: 4px 7px 7px 0px #05000042;
+  padding: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.box5:hover {
+  filter: grayscale(5);
+  transform: scale(1.03);
+}
+
+.box6 {
+  background-color: rgb(247, 241, 241);
+  box-shadow: 4px 7px 7px 0px #05000042;
+  padding: 4%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+.box6:hover {
+  filter: grayscale(5);
+  transform: scale(1.03);
+}
+
+footer {
+  background-color: teal;
+  color: mintcream;
+  padding: 2%;
+  margin-top: 20px;
+}
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a,
+.box5 a,
+.box6 a {
+  color: teal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    padding: 4%;
+  }
+}
+
+  footer {
+    padding: 15px;
+    margin-top: 60px;
+}
