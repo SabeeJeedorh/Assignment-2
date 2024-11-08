@@ -7,288 +7,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="/ass4.css">
 </head>
-<style>
-    *{
-    margin: 0;
-    padding: 0;
-}
-body {
-    margin: 0;
-    height: 100vh;
-    background-color: #ffffff;
-
-}
-
-
-.container {
-    display: flex;
-    height: 100vh;
-    flex: 1;
-
-}
-.logo {
-    margin-left: 250px;
-    
-}
-
-.right-section {
-    flex: 1;
-    box-sizing: border-box;
-
-}
-
-.left-section {
-    flex: 1;
-    padding-top: 200px;
-}
-
-.left-section h1 {
-    text-align: center;
-    font-weight: bolder;
-    
-
-}
-
-.left-section p{
-    text-align: center;
-color: gray;
-}
-
-/* form {
-    flex: 1;
-    padding: 0px;
-    padding-top: 0;
-    height: auto;
-    object-fit: cover;
-
-} */
-
-
-.box {
-    width: 550px;
-    height: 600px;
-    box-shadow: 0 0 10px rgb(207, 201, 201);
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    padding: 40px;
-
-}
-
-
-input:focus {
-    box-shadow: 0 0 5px mediumspringgreen;
-    outline: none;
-}
-
-input{
-    padding: 14px;
-border: 1px solid rgb(222, 217, 217);
-    display: flex;
-
-}
-.name{
-    display: flex;
-    flex: direction 1; 
-    padding: 10px;
-    width: 200px;
-    gap: 20px;
-}
-.name select{
-    width: 200px;
-    padding: 10px;
-    border: (222, 217, 217);
-}
-.name input{
-    width: 200px;
-margin-top: 20px;
-}
-.name select{
-    margin-top: 20px;
-    gap: 10px;
-}
-.level{
-    margin-top: 20px;
-}
-.level select{
-    width: 500px;
-    padding: 10px;
-    border: 1px solid rgb(222, 217, 217);
-    margin-top: 20px;
-}
-#dob{
-    width: 200px;
-    padding: 10px; 
- 
-}
-
-#gender{
-  border: 1px solid rgb(222, 217, 217);
- margin-right: 20px;
- width: 220px;
-}
-#password{
-    width: 470px;
-    margin-top: 10px;
-    
-}
-
-   label{
-    font-weight: bolder;
-   }
- 
-button {
-    background-color: turquoise;
-    color: #ffffff;
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-    outline: none;
-    border: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
- .register a{
-text-decoration: underline;
-color: turquoise;
-
-} 
-.register p{
-    font-weight: bolder;
-
-} 
-
-
-
-
-
-
-
-
-/*media query*/
-
-
-        
-    
-
-
-@media (max-width: 600px) {
-   * {
-        margin:0; 
-    }
-
-
-
-    body {
-        padding: 0%;
-        margin: 0%;
-        /* height: 100%;
-        width: 100%; */
-
-    }
-   
-   
-   
-    .container {
-        width: 100%;
-     display: grid;
-     grid-template-columns: 1;
-        
-    }
-
-
-
-    .logo {
-        justify-content: left;
-        margin-left: 15px;
-        padding: 10px;
-}
-
-
-.left-section {
-        padding: 0px;
-    }
-
-
-.text{
-    color: red;
-    margin-right: 50px;
-    /* text-align: left;
-    text-decoration: line-through yellow; */
-}
-
-
-
-    .box {
-        width: 100%;   
-        padding: 0;
-        box-sizing: border-box;
-      
-    }
-    
-    .footer-button {
-        width: 55%;
-        background-color: red;
-
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-</style>
+<link rel="stylesheet" href="./index.css">
 <body>
-    <main>
-
-
-      
+    <main>   
     <div class="container">
         <div class="left-section">
             <div class="logo">
-                <img src="/image.png" alt="logo" width="100px">
+                <img src="../images/image.png" alt="logo" width="100px">
               </div>
-              <div class="text">
-
-              
-            <h1>For Individuals</h1>
-            
-
+              <div class="text">       
+            <h1>For Individuals</h1>     
             <p>Start benefiting from the wellness experience.
                  For  companies looking on increasing productivity, and improving organization wellness.</p>
         </div>
-</div>
-
-
+    </div>
         <div class="right-section">
             <div class="box">
-
-
                 <form action="" >
                     <div class="name">
                         <label for="firstname">First name
                             <input type="text" id="firstname"  required class="form-input-box">
                         </label>
-
-
                         <label for="lastname">Last name
                             <input type="text" id="Lastname"  required class="form-input-box">
                         </label>
                     </div>
-                
-
-
                     <div class="name">
                         <label for="gender">Gender
                              <br>
@@ -299,25 +42,18 @@ color: turquoise;
                                     </label>
                                 </select>
                         </label>
-
-
                         <label for="date of birth">Date of Birth <br>
                             <input type="date" placeholder="Select here" id="dob"   required class="form-input-box">
                         </label>
                     </div>
-
-
                     <div class="name">
                         <label for="weight">weight (KG)
                             <input type="number" id="weight" placeholder="Enter weight"   required class="form-input-box">
                         </label>
-
-
                         <label for="height">Height (CM)
                             <input type="number" id="height" placeholder="Enter height here"  required class="form-input-box">
                         </label>
                     </div>
-
                     <div class="level">
                         <label for="activity" > Activity Level
                             <select id="activity level" class="form-input"  required class="form-input-box">
@@ -330,37 +66,18 @@ color: turquoise;
                             </select>
                         </label>
                     </div>
-
                     <div class="level">
                         <label for="password">
                          Password <br>
                         <input type="password" id="password"   required class="form-input-box">
                         </label>
                     </div>
-
-
 <div class="register">
-
-
 <button class="footer-button">Register</button>
-
 <p>By clicking register, you agree to our <a href="#">Terms of Use</a> and our<a href="#">Privacy and Policy</a></p>
 
 </div>
-
-
-
-
-
-
-
-
-
-
                 </form>
-
-
-
             </div>
         </div>
         </main>

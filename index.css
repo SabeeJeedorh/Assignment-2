@@ -142,9 +142,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
   footer {
     padding: 15px;
     margin-top: 60px;
-  }
 }

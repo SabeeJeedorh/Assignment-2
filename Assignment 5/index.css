@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+  header {
+    border-bottom: 2px solid rgb(214, 201, 201);
+    display: flex;
+    justify-content: space-between;
+  }
+  .desktop-navlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+    justify-content: space-around;
+    margin-bottom: 3px;
+  }
+
+  .mobile-navlist {
+    list-style: none;
+    margin-top: 30px;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+    justify-content: space-around;
+    margin-bottom: 3px;
+  }
+
+  nav,
+  a {
+    margin-right: 20px;
+  }
+
+  .account {
+    border: solid #222 1px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 640px) {
+    nav {
+      display: none;
+    }
+  }
+
+  nav {
+    margin-left: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  ul :hover {
+    background-color: white;
+    border-radius: 5px;
+  }
+  .logo {
+    height: 12px;
+    margin-bottom: 30px;
+  }
+
+  .dropdown-toggle {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: xx-large;
+    height: 50px;
+    display: none;
+    z-index: 99;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 640px) {
+    .dropdown-toggle {
+      display: flex;
+    }
+  }
+
+  .mobile-menu {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: xx-large;
+    height: 150px;
+    display: none;
+    position: absolute;
+    background: #222;
+    color: white;
+    width: 100%;
+  }

@@ -1,0 +1,76 @@
+span {
+  color: mediumseagreen;
+}
+.gray-div {
+  background-color: gray;
+  border-top: 5px solid gainsboro;
+
+  width: auto;
+  height: 50px;
+}
+span {
+  color: rgb(25, 182, 25);
+  font-weight: bolder;
+  font-size: 20px;
+}
+p {
+  line-height: 1.5em;
+  font-size: 20px;
+}
+.gray-2 {
+  background-color: gray;
+  border-top: 5px solid gainsboro;
+  width: auto;
+  height: 50px;
+}
+.yellow-section {
+  background-color: rgb(231, 199, 22);
+  box-shadow: 0 5px 2px -2px rgb(121, 111, 86);
+  width: 150%;
+  max-width: 400px;
+  height: 50px;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 5px;
+}
+.yellow-section p {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+/*media query*/
+@media (max-width: 600px) {
+  .gray-div {
+    width: auto;
+  }
+}
+.yellow-section {
+  width: 80vw;
+  height: 80px;
+  padding-top: 2px;
+  margin-top: 5px;
+}
+
+.yellow-section p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 25px;
+}
+
+@media (max-width: 479px) {
+  .yellow-section p {
+    font-size: 18px;
+  }
+  .yellow-section {
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px;
+  }
+}
