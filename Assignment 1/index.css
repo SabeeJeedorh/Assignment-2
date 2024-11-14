@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -63,11 +64,12 @@ body {
 
 @media (max-width: 600px) {
   .pink-box {
-    transform: translateX(20%);
+    transform: translateX(-10%);
     background-color: deeppink;
     width: 220px;
   padding: 2.3rem;
-  
+  position:absolute;
+    z-index: 1;
   }
 
   .pink-box p {
@@ -87,9 +89,12 @@ body {
     padding: 20px;
     height: 350px;
     padding-top: 15px;
+       transform: translateX(-20%);
   }
  
   
 }
+
+
 
 
