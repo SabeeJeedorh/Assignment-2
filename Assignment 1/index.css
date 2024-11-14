@@ -63,16 +63,15 @@ body {
 
 @media (max-width: 600px) {
   .pink-box {
-    transform: translateX(12%);
+    transform: translateX(20%);
     background-color: deeppink;
-    width: 200px;
-  padding: 2rem;
+    width: 220px;
+  padding: 2.3rem;
   
   }
 
   .pink-box p {
     font-size: large;
-    margin-0px;
     position: absolute;
     
   }
@@ -84,9 +83,9 @@ body {
   }
 
   .white-box {
-    width: 250px;
-    padding: 30px;
-    height: 470px;
+    width: 300px;
+    padding: 20px;
+    height: 350px;
     padding-top: 15px;
   }
  
