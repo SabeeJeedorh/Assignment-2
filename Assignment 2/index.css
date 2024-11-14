@@ -15,7 +15,7 @@ p {
   font-size: 20px;
 }
 .text{
-font-size:16px;
+font-size:20px;
 }
 .gray-2 {
   background-color: rgb (94, 92, 92);
@@ -59,12 +59,12 @@ font-size:16px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (max-width: 479px) {
   .yellow-section p {
-    font-size: 18px;
+    font-size: 16px;
 line height:1.3rem;
   }
   .yellow-section {
