@@ -10,12 +10,12 @@
   background-color: teal;
   box-shadow: 4px 7px 7px 0px #05000042;
   padding: 3%;
-  margin-bottom: 50px;
+
 }
 .container {
   display: grid;
   gap: 20px;
-  transition: scale(1.3);
+
 }
 
 .container a {
@@ -85,7 +85,7 @@
   transform: scale(1.03);
 }
 
-.box5 {
+/* .box5 {
   background-color: rgb(247, 241, 241);
   box-shadow: 4px 7px 7px 0px #05000042;
   padding: 4%;
@@ -112,7 +112,7 @@
 .box6:hover {
   filter: grayscale(5);
   transform: scale(1.03);
-}
+} */
 
 footer {
   background-color: teal;
@@ -131,18 +131,20 @@ footer {
     "Lucida Sans", Arial, sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
   .box1,
   .box2,
   .box3,
   .box4,
-  .box5,
-  .box6 {
+  /* .box5,
+  .box6 { */
     padding: 4%;
   }
-}
 
+.container{
+  transform: translateY(30%);
+}
   footer {
-    padding: 15px;
-    margin-top: 60px;
+    padding: 17px;
+    margin-top: 390px;
 }
