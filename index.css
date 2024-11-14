@@ -145,6 +145,5 @@ footer {
   transform: translateY(30%);
 }
   footer {
-    padding: 17px;
-    margin-top: 390px;
+    display: none;
 }
