@@ -1,210 +1,149 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    margin: 0;
-    height: 100vh;
-    background-color: #ffffff;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+nav{
+  position: sticky;
+  top: 0;
+  background-color: #000000bd;
+}
+
+nav a {
+  color: #fff;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+  color: rgb(20, 219, 20);
+}
 
 .container {
-    display: flex;
-    height: 100vh;
-    flex: 1;
-
-}
-.logo {
-    margin-left: 250px;
-    
-}
-
-.right-section {
-    flex: 1;
-    box-sizing: border-box;
-
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  min-height: 100vh;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(173, 216, 230, 0.144);
 }
 
 .left-section {
-    flex: 1;
-    padding-top: 200px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.logo {
+  width: fit-content;
 }
 
 .left-section h1 {
-    text-align: center;
-    font-weight: bolder;
-    
-
+  text-align: left;
+  font-weight: bolder;
 }
 
-.left-section p{
-    text-align: center;
-color: gray;
+.left-section p {
+  text-align: left;
+  max-width: 400px;
+  color: gray;
+  font-family: Brown;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 10px;
 }
 
-
-
-.box {
-    width: 550px;
-    height: 600px;
-    box-shadow: 0 0 10px rgb(207, 201, 201);
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    padding: 40px;
-
+.right-section {
+  width: 100%;
+  padding: 2rem;
+  max-width: 650px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(207, 201, 201);
+  overflow: hidden;
 }
 
-
-input:focus {
-    box-shadow: 0 0 5px mediumspringgreen;
-    outline: none;
+.name {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
 }
 
-input{
-    padding: 14px;
-border: 1px solid rgb(222, 217, 217);
-    display: flex;
-
-}
-.name{
-    display: flex;
-    flex: direction 1; 
-    padding: 10px;
-    width: 200px;
-    gap: 20px;
-}
-.name select{
-    width: 200px;
-    padding: 10px;
-    border: (222, 217, 217);
-}
-.name input{
-    width: 200px;
-margin-top: 20px;
-}
-.name select{
-    margin-top: 20px;
-    gap: 10px;
-}
-.level{
-    margin-top: 20px;
-}
-.level select{
-    width: 500px;
-    padding: 10px;
-    border: 1px solid rgb(222, 217, 217);
-    margin-top: 20px;
-}
-#dob{
-    width: 200px;
-    padding: 10px; 
- 
+.name:first-child {
+  margin-top: 0;
 }
 
-#gender{
+.name {
+  margin-top: 15px;
+}
+
+.text {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+select {
+  padding: 14px;
   border: 1px solid rgb(222, 217, 217);
- margin-right: 20px;
- width: 220px;
-}
-#password{
-    width: 470px;
-    margin-top: 10px;
-    
+  width: 100%;
 }
 
-   label{
-    font-weight: bolder;
-   }
- 
-button {
-    background-color: turquoise;
-    color: #ffffff;
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-    outline: none;
-    border: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 5px;
+input:focus,
+select:focus {
+  outline: 1px solid mediumspringgreen;
 }
- .register a{
-text-decoration: underline;
-color: turquoise;
 
-} 
-.register p{
-    font-weight: bolder;
+label {
+  font-weight: bolder;
+}
 
-} 
-
-
-
-
+.footer button {
+  background-color: turquoise;
+  color: #ffffff;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.footer a {
+  text-decoration: underline;
+  color: turquoise;
+}
+.footerr p {
+  font-weight: bolder;
+}
 
 /*media query*/
 
-
-        
-
-@media (max-width: 600px) {
-   * {
-        margin:0; 
-    }
-
-
-
-    body {
-        padding: 0%;
-        margin: 0%;
-
-    }
-   
-    .container {
-        width: 100%;
-     display: grid;
-     grid-template-columns: 1;
-        
-    }
-
-
-    .logo {
-        justify-content: left;
-        margin-left: 15px;
-        padding: 10px;
+@media (max-width: 850px) {
+  .right-section {
+    max-width: 550px;
+  }
 }
 
-
-.left-section {
-        padding: 0px;
-    }
-
-
-    .box {
-        width: 100%;   
-        padding: 0;
-        box-sizing: border-box;
-      
-    }
-    
-    .footer-button {
-        width: 100%;
-    
-
-    }
-
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+  .left-section{
+    margin-bottom: 20px;
+  }
+  .right-section, .left-section{
+    max-width: 100%;
+  }
 }
 
-
-
-
-
-
-
-
+ @media (max-width: 600px) {
+  .name{
+    flex-direction: column;
+  }
+}
+/* end of media query */
