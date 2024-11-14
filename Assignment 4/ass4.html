@@ -1,86 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/ass4.css">
-</head>
-<link rel="stylesheet" href="./index.css">
-<body>
-    <main>   
-    <div class="container">
+    <link rel="stylesheet" href="/ass4.css" />
+  </head>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="../nav.css">
+  <body>
+     <nav>
+        <a href="../Assignment 1/ass1.html">Otters Section</a>
+        <a href="../Assignment 2/ass2.html">Huckleberry Section</a
+        ><a href="../Assignment 3/ass3.html">Novus Watch Section</a>
+    </nav>
+    <main>
+      <div class="container">
         <div class="left-section">
-            <div class="logo">
-                <img src="../images/image.png" alt="logo" width="100px">
-              </div>
-              <div class="text">       
-            <h1>For Individuals</h1>     
-            <p>Start benefiting from the wellness experience.
-                 For  companies looking on increasing productivity, and improving organization wellness.</p>
+          <div class="logo">
+            <img src="../images/image.png" alt="logo" width="100px" />
+          </div>
+          <div class="header">
+            <h1>For Individuals</h1>
+            <p>
+              Start benefiting from the wellness experience. For companies
+              looking on increasing productivity, and improving organization
+              wellness.
+            </p>
+          </div>
         </div>
-    </div>
+
         <div class="right-section">
-            <div class="box">
-                <form action="" >
-                    <div class="name">
-                        <label for="firstname">First name
-                            <input type="text" id="firstname"  required class="form-input-box">
-                        </label>
-                        <label for="lastname">Last name
-                            <input type="text" id="Lastname"  required class="form-input-box">
-                        </label>
-                    </div>
-                    <div class="name">
-                        <label for="gender">Gender
-                             <br>
-                                <select id="gender" class="form-input"  required class="form-input-box">
-                                    <option value="Select"> Select here</option>
-                                    <option value="Male"> Male</option>
-                                    <option value="female">Female</option>    
-                                    </label>
-                                </select>
-                        </label>
-                        <label for="date of birth">Date of Birth <br>
-                            <input type="date" placeholder="Select here" id="dob"   required class="form-input-box">
-                        </label>
-                    </div>
-                    <div class="name">
-                        <label for="weight">weight (KG)
-                            <input type="number" id="weight" placeholder="Enter weight"   required class="form-input-box">
-                        </label>
-                        <label for="height">Height (CM)
-                            <input type="number" id="height" placeholder="Enter height here"  required class="form-input-box">
-                        </label>
-                    </div>
-                    <div class="level">
-                        <label for="activity" > Activity Level
-                            <select id="activity level" class="form-input"  required class="form-input-box">
-                                <option value="level1"> Select here</option>
-                                <option value="level2"> level1</option>
-                                <option value="level3">level2</option>    
-                                <option value="level2"> level3</option>
-                                <option value="level3">level4</option>    
-                                </label>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="level">
-                        <label for="password">
-                         Password <br>
-                        <input type="password" id="password"   required class="form-input-box">
-                        </label>
-                    </div>
-<div class="register">
-<button class="footer-button">Register</button>
-<p>By clicking register, you agree to our <a href="#">Terms of Use</a> and our<a href="#">Privacy and Policy</a></p>
+          <div class="box">
+            <form action="">
+              <div class="name">
+                <div class="text">
+                  <label for="firstname">First name </label>
+                  <input type="text" id="firstname" required />
+                </div>
+                <div class="text">
+                  <label for="lastname">Last name </label>
+                  <input type="text" id="Lastname" required />
+                </div>
+              </div>
 
-</div>
-                </form>
-            </div>
+              <div class="name">
+                <div class="text">
+                  <label for="gender">Gender</label>
+                  <select id="gender" class="form-input" required>
+                    <option value="Select">Select here</option>
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="text">
+                  <label for="date of birth">Date of Birth </label>
+                  <input
+                    type="date"
+                    placeholder="Select here"
+                    id="dob"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="name">
+                <div class="text">
+                  <label for="weight">weight (KG) </label>
+                  <input
+                    type="number"
+                    id="weight"
+                    placeholder="Enter weight"
+                    required
+                  />
+                </div>
+
+                <div class="text">
+                  <label for="height">Height (CM) </label>
+                  <input
+                    type="number"
+                    id="height"
+                    placeholder="Enter height here"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="name">
+                <div class="text">
+                  <label for="activity"> Activity Level</label>
+                  <select id="activity level" class="form-input" required>
+                    <option value="level1">Select here</option>
+                    <option value="level2">level1</option>
+                    <option value="level3">level2</option>
+                    <option value="level2">level3</option>
+                    <option value="level3">level4</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="name">
+                <div class="text">
+                  <label for="password"> Password </label>
+                  <input type="password" id="password" required />
+                </div>
+              </div>
+
+              <div class="footer">
+                <button class="footer-button">Register</button>
+                <p>
+                  By clicking register, you agree to our
+                  <a href="#">Terms of Use</a> and our<a href="#"
+                    > Privacy and Policy</a
+                  >
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
-        </main>
-</body>
-
+      </div>
+    </main>
+    <footer class="home-footer">
+      <button>
+        <a href="../index.html">Home</a>
+      </button>
+    </footer>
+  </body>
 </html>
