@@ -65,6 +65,7 @@ p {
 @media (max-width: 479px) {
   .yellow-section p {
     font-size: 18px;
+line height:1.3rem;
   }
   .yellow-section {
     width: 100%;
