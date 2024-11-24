@@ -4,11 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 5</title>
-
-
   </head>
-<link rel="stylesheet" href="./index.css">
-
+  <link rel="stylesheet" href="./index.css" />
 
   <body>
     <header>
@@ -17,7 +14,7 @@
       </div>
 
       <nav>
-        <ul class="desktop-navlist">
+        <ul class="navlist">
           <li><a>Download </a></li>
           <li><a>Learn more </a></li>
           <li><a>Pricing </a></li>
@@ -25,18 +22,161 @@
           <li><a class="account">Account </a></li>
         </ul>
       </nav>
-
-     
-
-      <div class="mobile-menu">
-        <ul class="mobile-navlist">
-          <li><a>Download </a></li>
-          <li><a>Learn more </a></li>
-          <li><a>Pricing </a></li>
-          <li><a>Help </a></li>
-          <li><a class="account">Account </a></li>
-        </ul>
-      </div>
+        
+    
+        
+      
     </header>
+    <div class="mobile-menu">
+      <button type="button" onclick="showMobileMenu()" class="btn">=</button>
+  
+   <li> <a href="#">Download</a></li>   
+    <li>  <a href="#">Learn more</a></li> 
+     <li> <a href="#">Pricing</a> </li>
+   <li>  <a href="#">Help</a> </li> 
+   <li> <a href="#">Account</a></li>   
+    </div>
+    <main>
+<section>
+      <div class="white-box">
+<div class="sect-1">
+        <h2 class="Checkout">Checkout</h2>
+
+        
+<div class="notification">
+<div class="notification-icon">
+  <span class="notification-badge">1</span>
+</div>
+
+ <h4 class="info">Your Basic Information</h4>  
+
+</div>
+
+        
+        
+        <form id="my-form"> 
+<div class="firstname">
+  <label for="">First Name </label>
+          <input type="text" placeholder="Jane" required>
+
+</div>
+<div class="lastname">
+  <label for="">Last Name </label>
+          <input type="text" placeholder="Doe" required>
+
+</div>
+    
+
+<br> <br>
+<label> 
+  E-mail
+</label>
+<input type="email" class="email" placeholder="janedoe@example.com" required>
+</div>
+
+
+
+
+
+<div class="sect-2">
+  <div class="notification">
+<div class="notification-icon">
+  <span class="notification-badge">2</span>
+</div>
+  <h4>Your payment Information</h4>
+</div>
+
+<div class="credit-info">
+
+<div class="card-num">
+
+<label for="card number">Credit Card</label> 
+<input type="text"  placeholder="Card Number"required class="card-num"/>
+</div>
+
+<input type="text" placeholder="MM/YY" required />
+<input type="text" placeholder="CVC"required/>
+
+</div>
+
+<button >Buy WP pusher</button>
+
+<br>
+</form>
+<div class="notifications">
+  <div class="notifications-icon">
+    <span class="notifications-badge">?</span>
+  </div>
+ <p class="help"> need any help? Don't hesitate to <u> contact ........</u> support!</u> 
+
+
+ <div class="stripe">
+  <p>powered by<span>Stripe</span> </p> 
+ </div>
+</section>
+        </div>
+
+   
+        <div class="blue-box">
+           <h3>Freelancer </h3>
+           <p>$ <span class="number">99</span> /year </p>
+           <p>Automatically renews after 1 year</p>
+
+
+
+
+
+           <ul class="checkmark-list">
+               <li>
+                   <div class="checkmark-circle">
+                       <span>&#10003;</span>
+                   </div>
+                   Use on 5 client sites
+               </li>
+               <li>
+                   <div class="checkmark-circle">
+                       <span>&#10003;</span>
+                   </div>
+                   Private repositories
+               </li>
+               <li>
+                   <div class="checkmark-circle">
+                       <span>&#10003;</span>
+                   </div>
+                   Email support
+               </li>
+           </ul>
+
+           
+
+           <p>Need 20 client sites?</p>
+           <p> </p> <a href="#" style="color: white;">Switch to the Agency plan</a>
+
+        
+          
+           <hr>
+           <p>HTP is horrible to deal with. <span>WP pusher </span>solves that issue. and the customer support is awesome!</p>
+
+           <div class="kirk">
+<img src="../images/kirk benard.png" alt="kirk">
+           <p>Kirk Beard</p>
+          </div>
+        </div>
+    </main>
+    <footer>
+      2018 Pusher IVS <a href="#">Terms of services</a></footer>
+    
+  <script>
+function showMobileMenu() {
+  let mobileMenu = document.querySelectorAll(".mobile-menu")[0];
+
+  if (mobileMenu.style.display === "none") {
+    document.querySelectorAll(".mobile-menu")[0].style.display = "block";
+  } else {
+    document.querySelectorAll(".mobile-menu")[0].style.display = "none";
+  }
+}
+</script>
+
   </body>
 </html>
