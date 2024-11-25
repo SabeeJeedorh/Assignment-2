@@ -320,7 +320,7 @@ span {
 /* Section background */
 
 .url-shortener-section {
-  background-image: url("/images/IMG-20241125-WA0002.jpg");
+    background-image: url("../images/IMG-20241125-WA0002.jpg");
   background-size: cover;
   background-position: center;
   margin-top: 100px;
@@ -460,7 +460,7 @@ form {
 }
 
 .revo {
-  background-image: url("/images/IMG-20241125-WA0002.jpg");
+  background-image: url("../images/IMG-20241125-WA0002.jpg");
   background-size: cover;
   background-position: center;
   margin-top: 100px;
