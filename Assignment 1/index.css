@@ -48,19 +48,8 @@ body {
   margin-top: 70px;
 }
 
-@media (max-width: 750px) {
-  .main-content {
-    transform: translate(-20%);
-  }
-
-  .pink-box {
-    padding: 12px;
-  }
-}
-
 @media (max-width: 600px) {
   .pink-box {
-<<<<<<< HEAD
     transform: translateX(20%);
     background-color: deeppink;
     width: 220px;
@@ -69,18 +58,11 @@ body {
 
   .pink-box p {
     font-size: larger;
-=======
-    transform: translateX(-10%);
-    background-color: deeppink;
-    width: 220px;
-  padding: 2.3rem;
   position:absolute;
-    z-index: 1;
   }
 
   .pink-box p {
     font-size: large;
->>>>>>> 1839d6f5c8db60c83ade07cbbd062b3135906918
     position: absolute;
   }
 
@@ -93,13 +75,5 @@ body {
     padding: 20px;
     height: 350px;
     padding-top: 15px;
-       transform: translateX(-20%);
   }
 }
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> 1839d6f5c8db60c83ade07cbbd062b3135906918
