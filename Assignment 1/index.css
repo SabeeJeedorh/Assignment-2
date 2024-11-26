@@ -4,7 +4,6 @@
 }
 body {
   background-color: black;
-  border-color: 50px solid #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
@@ -28,69 +27,57 @@ body {
   padding: 30px;
   width: 80%;
   border-radius: 4px;
-
- 
 }
 .pink-box p {
   text-align: center;
   font-weight: 900;
   font-size: xx-large;
-
-
 }
 .white-box {
   background-color: #ffffff;
-  padding: 3rem 5rem 4rem 2rem;
+  padding: 3rem 3rem 4rem 2rem;
   border-radius: 8px;
   width: 120%;
+  margin-top: 8px;
 }
 .white-box p {
   line-height: 2rem;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   margin-top: 70px;
 }
 
-
 @media (max-width: 750px) {
+  .main-content {
+    transform: translate(-20%);
+  }
+
   .pink-box {
-  padding: 12px;  
-  
+    padding: 12px;
   }
 }
-
-
 
 @media (max-width: 600px) {
   .pink-box {
-    transform: translateX(12%);
+    transform: translateX(20%);
     background-color: deeppink;
-    width: 200px;
-  padding: 2rem;
-  
+    width: 220px;
+    padding: 2.3rem;
   }
 
   .pink-box p {
-    font-size: large;
-    margin-0px;
+    font-size: larger;
     position: absolute;
-    
   }
-  
+
   .white-box p {
     font-size: medium;
-    
-    
   }
 
   .white-box {
-    width: 250px;
-    padding: 30px;
-    height: 470px;
+    width: 300px;
+    padding: 20px;
+    height: 350px;
     padding-top: 15px;
   }
- 
-  
 }
-
-
