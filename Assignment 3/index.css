@@ -23,19 +23,14 @@ nav a:hover {
 }
 
 .main-content {
-<<<<<<< HEAD
   background-color:  rgba(134, 128, 192, 0.5);
   padding: 10rem 1rem 1rem 0;
   height: 100vh;
-=======
   background-color: rgba(134, 128, 192, 0.5);
   padding: 0 0 5rem 0;
   height: 100%;
   min-height: 100vh;
->>>>>>> 1839d6f5c8db60c83ade07cbbd062b3135906918
-  overflow: hidden;
 }
-
 .section {
   border-radius: 8px;
   width: 100%;
