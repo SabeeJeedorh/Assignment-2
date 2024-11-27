@@ -75,6 +75,8 @@ main {
 }
 
 
+
+
 h2 {
   margin-top: 20px;
   border-bottom:3px solid #F5F7FA ;
@@ -393,10 +395,10 @@ hr{
   }
   .blue-box {
     height: 650px;
-    width: 320px;
+    width: 250px;
     margin-top: 40px;
     max-width: 500px;
-    transform: translate(-10%);
+    transform: translate(-11%);
   }
   
   nav {
