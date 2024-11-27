@@ -48,23 +48,28 @@ body {
   margin-top: 70px;
 }
 
+@media (max-width: 750px) {
+  .main-content {
+    transform: translate(-20%);
+  }
+
+  .pink-box {
+    padding: 12px;
+  }
+}
+
 @media (max-width: 600px) {
   .pink-box {
-    transform: translateX(20%);
-    background-color: deeppink;
+    transform: translateX(10%);
     width: 220px;
     padding: 2.3rem;
+    z-index: 1;
   }
 
   .pink-box p {
     font-size: larger;
   position:absolute;
-  }
-
-  .pink-box p {
-    font-size: large;
-    position: absolute;
-  }
+  }  
 
   .white-box p {
     font-size: medium;
@@ -75,5 +80,6 @@ body {
     padding: 20px;
     height: 350px;
     padding-top: 15px;
+       transform: translateX(-5%);
   }
 }
