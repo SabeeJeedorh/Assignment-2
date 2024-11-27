@@ -75,8 +75,6 @@ main {
 }
 
 
-
-
 h2 {
   margin-top: 20px;
   border-bottom:3px solid #F5F7FA ;
@@ -346,6 +344,8 @@ hr{
     padding: 0;
   }
   header {
+    position: sticky;
+    top: -1px;
     border-bottom: none;
     display: flex;
     background-color: rgb(250, 248, 248);
@@ -369,13 +369,6 @@ hr{
     box-shadow: none;
   }
 
-<<<<<<< HEAD
-
-
-  
-
-=======
->>>>>>> 1839d6f5c8db60c83ade07cbbd062b3135906918
   .mobile-menu li {
     list-style: none;
   }
@@ -398,6 +391,14 @@ hr{
     padding: 10px;
     margin-bottom: 5px;
   }
+  .blue-box {
+    height: 650px;
+    width: 320px;
+    margin-top: 40px;
+    max-width: 500px;
+    transform: translate(-10%);
+  }
+  
   nav {
     display: none;
   }
@@ -423,14 +424,9 @@ hr{
     margin-bottom: 20px;
   }
   
-  
-
-.stripe {
-margin-top: 130px;
+.stripe p {
     font-size: 14px; 
-
 }
-
 
 .stripe span {
   font-family: "Times New Roman", Times, serif;
