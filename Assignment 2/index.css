@@ -93,7 +93,8 @@ body {
 .background {
   width: 100%;
   padding-top: 10px;
-  background-color: rgba(153, 153, 153, 1);
+    background-color: rgb(101, 94, 94);
+  border-top: 3px solid rgb(156, 147, 147);
 }
 
 .secondContent .text-container {
