@@ -224,7 +224,6 @@ button {
 
 
 
-
 .stripe {
   display: inline-block; 
   transform: translate(-15rem);
@@ -284,7 +283,7 @@ span {
 .checkmark-circle {
   width: 16px;
   height: 16px;
-  background-color:  #1179bf; /* Blue background */
+  background-color:  #1179bf; 
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -294,7 +293,7 @@ span {
 }
 
 .checkmark-circle span {
-  color: #B9F5FF; /* White checkmark */
+  color: #B9F5FF;
 }
 
 
@@ -306,10 +305,10 @@ span {
 }
 
 .checkmark-list li {
-    display: flex; /* Align the circle and text side by side */
+    display: flex; 
     align-items: center;
-    margin-bottom: 10px; /* Space between items */
-    font-size: 18px; Text size
+    margin-bottom: 10px; 
+    font-size: 18px; 
     font-family: Arial, sans-serif;
 }
 p{
@@ -330,14 +329,13 @@ hr{
 }
 .kirk{
   display: flex;
-  /* padding: 20px; */
   left: 0;
   font-weight: bolder;
 
 }
 /*media query*/
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   * {
     margin: 0;
   }
