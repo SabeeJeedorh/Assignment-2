@@ -38,9 +38,7 @@ body {
 
 .firstContent{
   padding: 3rem 10rem 3rem 0;
-/*   background-color: rgba(255, 255, 255, 1); */
  background-color: rgb(133, 126, 126);
-  
   overflow: hidden;
 }
 
@@ -96,7 +94,7 @@ body {
 .background {
   width: 100%;
   padding-top: 10px;
- background-color: rgb(133, 126, 126);
+  background-color: #fff;
 
 }
 
